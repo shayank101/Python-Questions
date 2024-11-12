@@ -16,3 +16,13 @@ if num == temp :
     print('Number is Palindrome...!')
 else :
     print('Number is not palindrome...!')
+
+
+# Method 2 : For string
+
+a = input('Enter a string you want to check Palindrome for : ')
+
+if a == a[::-1]:
+    print('Is Palindrome...!')
+else :
+    print('Is not Palindrome...')
