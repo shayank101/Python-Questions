@@ -2,12 +2,10 @@
 
 num = int(input('Enter a number you want to check prime : '))
 
-if num < 0:
+if num <= 1:
     print('Not prime')
-elif num == 1:
-    print('Is prime')
 else : 
-    for i in range(2,num//2):
+    for i in range(2,num2):
         if num%i==0:
             print("Not prime...")
             break
